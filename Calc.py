@@ -33,8 +33,8 @@ print("""Selamat Datang di kalkulator simple
 
 while True:
 # Input memilih fungsi operasi
-    choice = input("Silahkan pilih(1/2/3/4/5): ")
-    if choice in ('1','2','3','4', '5'):
+    choice = input("Silahkan pilih(1/2/3/4/5,6,7): ")
+    if choice in ('1','2','3','4', '5', '6', '7'):
 # tambahkan logika error handling
         try:
 # Input angka yang akan dioperasikan
